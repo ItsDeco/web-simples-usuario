@@ -1,0 +1,783 @@
+body{
+  background: url('../img/bg.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.textoFa{
+  margin: 0px 2px;
+}
+
+
+.custom-carousel .carousel-item img {
+  height: auto;
+  max-height: 600px;
+  object-fit: fill; /* Cambia para cover para que se vuelva al normal y quitar la clase para llenar la pantalla*/
+}
+
+.textoIndex{
+  text-align: center;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.textoBalatr{
+  text-align: center;
+  color: white;
+}
+.textoBalatr h1{
+  margin-top: 10px;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.textoBalatr p{
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.mapa iframe{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30%;
+}
+
+.mapa h1{
+  margin-top:10px;
+  text-align: center;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.contacto{
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.contacto form{
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto label{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.contactoAbajo{
+  margin: 0 auto;
+}
+
+.botonEnviar {
+  font-weight: bold;
+  color: white;
+  border-radius: 2rem;
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: #3653f8;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.botonEnviar:hover {
+  background-color: darkblue;
+}
+
+
+.botonResetar{
+  font-weight: bold;
+  color: white;
+  border-radius: 2rem;
+  width: 200px;
+  height: 45px;
+  border: none;
+  background-color: #3653f8;
+  justify-content: center;
+  align-items: center;
+}
+
+.botonResetar:hover{
+  background-color: darkblue;
+}
+
+
+
+
+.usuario{
+  background: white;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+.usuario h1{
+  text-align: center;
+  color: black;
+}
+
+.usuario h2{
+  text-align: center;
+  color: red;
+}
+
+
+.usuario form{
+  display: flex;
+  flex-direction: column;
+}
+
+.usuarioAbajo{
+  margin: 0 auto;
+}
+
+.botonEnviar2 {
+  font-weight: bold;
+  color: white;
+  border-radius: 2rem;
+  width: 150px;
+  height: 30px;
+  border: none;
+  background-color: #3653f8;
+  justify-content: center;
+  align-items: center;
+}
+
+.botonEnviar2:hover {
+  background-color: darkblue;
+}
+
+
+.registro{
+  background: white;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 20px;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+.registro h1{
+  text-align: center;
+  color: black;
+}
+
+.registro h2{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: red;
+  font-size: 20px; 
+}
+
+
+
+.registro form{
+  display: flex;
+  flex-direction: column;
+}
+
+.RegistroAbajo{
+  margin: 0 auto;
+}
+
+.car-wrap { 
+  height: 350px;
+  overflow: hidden;
+}
+
+.car-container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.car {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.car-track {
+  display: flex;
+  overflow-x: auto;
+  cursor: grab;
+}
+
+
+
+.car-track.active {
+  cursor: grabbing;
+}
+
+
+.car-item {
+  min-width: 400px;
+  height: 350px;
+  margin: 0 10px;
+  text-align: center;
+  background: transparent;
+}
+
+
+
+.car-item img {
+  width: 100%;  
+  height: auto;
+  min-height: 295px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.car-item img:hover{
+  transform: scale(1.03);
+  scrollbar-width: none;
+}
+.car-item p {
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+.car-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.car-control {
+  background-color:transparent;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+.car-control.prev {
+  margin-right: 10px;
+}
+
+.car-contro.prev.hover{
+  font-weight:bold;
+}
+
+.car-control.next {
+  margin-left: 10px;
+}
+
+.cabecera-tienda{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.tienda-grid-wrap h2{
+  text-align: center;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20px;
+}
+
+.tienda-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.tienda-item {
+  display: flex;
+  width: 470px;
+  position: relative;
+  min-height: 300px;
+  align-items: center;
+  background: rgba(57,73,78,0.7);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.tienda-item img {
+  width: 200px;
+  min-height: 300px;
+  border-radius: 8px;
+  margin-right: 30px;
+}
+
+.item-info {
+  text-align: left;
+  width: 200px;
+  word-wrap: break-word;
+}
+
+
+.item-info h3 {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  top: 30px;
+  position: absolute;
+}
+
+.item-info p {
+  font-size: 14px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.tienda-item button{
+  font-weight: bold;
+  color: white;
+  border-radius: 2rem;
+  width: 150px;
+  height: 30px;
+  border: none;
+  background-color: #3653f8;
+  bottom: 30px;
+  position: absolute;
+}
+
+.tienda-item button:hover {
+  background-color: darkblue;
+}
+
+
+
+.infousuario {
+  background: white;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 20px;
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.infousuario h1 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+
+.infousuario h2 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: blue;
+  font-size: 20px;
+}
+
+.infousuario h3 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: green;
+  font-size: 15px;
+}
+
+
+
+.infousuarioAbajo {
+  margin: 0 auto;
+}
+
+.infousuario table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.infousuario th, .infousuario td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.infousuario th {
+  background-color: #f2f2f2;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.infousuario td {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+
+.infousuarioAbajo{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.infousuarioAbajo button {
+  font-weight: bold;
+  color: white;
+  border-radius: 2rem;
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: #3653f8;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.infousuarioAbajo button:hover {
+  background-color: darkblue;
+}
+
+
+
+
+
+.infousuariocambio {
+  background: white;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.infousuariocambio h1 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+
+.infousuariocambio h2 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: red;
+  font-size: 20px;
+}
+
+
+.infousuariocambio form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formcambio {
+  margin-bottom: 15px;
+}
+
+.formcambio label {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.formcambio input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.infousuariocambioAbajo {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.infousuariocambioAbajo button {
+  font-weight: bold;
+  color: white;
+  border-radius: 2rem;
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: #3653f8;
+  justify-content: center;
+  align-items: center;
+}
+
+.infousuariocambioAbajo button:hover {
+  background-color: darkblue;
+}
+
+.abutton {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  border-radius: 2rem;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  background-color: #3653f8;
+  text-decoration: none; 
+  justify-content: center;
+  align-items: center;
+}
+
+.abutton:hover {
+  background-color: darkblue;
+}
+
+
+
+.pedidos {
+  background: white;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  overflow: auto;
+}
+
+.pedidos h1 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+
+.pedidos table {
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.pedidos th, .pedidos td {
+  padding: 8px;
+  text-align: left;
+}
+
+.pedidos th {
+  background-color: #f2f2f2;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.pedidos td {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+
+.pedidos button {
+  font-weight: bold;
+  color: white;
+  border-radius: 2rem;
+  width: 150px;
+  height: 30px;
+  border: none;
+  background-color: #3653f8;
+  justify-content: center;
+  align-items: center;
+}
+
+.pedidos button:hover {
+  background-color: darkblue;
+}
+
+
+
+
+
+
+
+.carrito {
+  background: white;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.carrito h2 {
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  color: green;
+  font-size: 20px;
+}
+
+
+.carrito img{
+  width: 100px;
+  height: 150px;
+}
+
+.carrito table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.carrito th, .carrito td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.carrito th {
+  background-color: #f2f2f2;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.carrito td {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+
+.carrito button:disabled{
+  background-color: grey;
+  cursor: not-allowed;
+  opacity: 0.75;
+}
+
+
+.botonAccion {
+  font-weight: bold;
+  color: white;
+  border-radius: 2rem;
+  width: 50px;
+  height: 30px;
+  border: none;
+  background-color: #3653f8;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.botonAccion:hover {
+  background-color: darkblue;
+}
+
+.botonAccion2 {
+  font-weight: bold;
+  color: white;
+  border-radius: 2rem;
+  width: 150px;
+  height: 30px;
+  border: none;
+  background-color: #3653f8;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.botonAccion2:hover {
+  background-color: darkblue;
+}
+
+.form-envio1 {
+  margin-bottom: 15px;
+}
+
+.form-envio1 label {
+  display: block;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 5px;
+}
+
+.form-envio1 input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.grax{
+  padding: 20px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+.proximamente{
+  padding: 20px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+input[readonly]{
+  background-color: #f2f2f2;
+}
+
+.pedidofinalizado{
+  background: white;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pedidofinalizado h1{
+  text-align: center;
+  color: green;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.pedidofinalizado p{
+  text-align: center;
+  color: blue;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}

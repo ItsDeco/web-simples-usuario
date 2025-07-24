@@ -1,0 +1,92 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>tienda.Login</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+      <servlet-name>Login</servlet-name>
+      <url-pattern>/logintienda.html</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>tienda.Logout</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/logout.html</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Registro</servlet-name>
+    <servlet-class>tienda.RegistroUsuario</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Registro</servlet-name>
+    <url-pattern>/registro.html</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Actualizar</servlet-name>
+    <servlet-class>tienda.ActualizarUsuario</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Actualizar</servlet-name>
+    <url-pattern>/actualizar.html</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>CambiarClave</servlet-name>
+    <servlet-class>tienda.CambiarClave</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>CambiarClave</servlet-name>
+    <url-pattern>/CambiarClave.html</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ProcesarPedido</servlet-name>
+    <servlet-class>tienda.ProcesarPedido</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ProcesarPedido</servlet-name>
+    <url-pattern>/ProcesarPedido.html</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Tramitacion</servlet-name>
+    <servlet-class>tienda.Tramitacion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Tramitacion</servlet-name>
+    <url-pattern>/Tramitacion.html</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>GestionarPedidos</servlet-name>
+    <servlet-class>tienda.GestionarPedidos</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GestionarPedidos</servlet-name>
+    <url-pattern>/GestionarPedidos.html</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>CancelarPedido</servlet-name>
+    <servlet-class>tienda.CancelarPedido</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CancelarPedido</servlet-name>
+    <url-pattern>/CancelarPedido.html</url-pattern>
+  </servlet-mapping>
+</web-app>
